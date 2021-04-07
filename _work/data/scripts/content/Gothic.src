@@ -9,6 +9,7 @@ MOD\Ikarus.1.2.2\float.d
 
 MOD\LeGo.2.7.1\Header_G1.src
 
+MOD\ScriptBin\Broadcasts.d
 MOD\ScriptBin\ConsoleCall.d
 
 AI\AI_Intern\BodyStates.d
