@@ -1,3 +1,7 @@
+func void Init_Global () {
+	//Ikarus 1.2.2
+	MEM_InitAll ();
+};
 
 func void Startup_Sub_Psicamp()
 {
@@ -1719,8 +1723,9 @@ func void init_surface()
 	INIT_Sub_Surface();
 };
 
-func void init_world()
-{
+func void init_world() {
+	Init_Global ();
+
 	INIT_Sub_Newcamp();
 	INIT_Sub_Oldcamp();
 	INIT_Sub_Psicamp();
@@ -1771,8 +1776,9 @@ func void startup_orcgraveyard()
 	Wld_InsertNpc(OrcWarrior2,"GRYD_055");
 };
 
-func void init_orcgraveyard()
-{
+func void init_orcgraveyard() {
+	Init_Global ();
+
 	Wld_SetMobRoutine(0,0,"FIREPLACE",1);
 	B_InitMonsterAttitudes();
 	B_InitGuildAttitudes();
@@ -1870,8 +1876,9 @@ func void startup_orctempel()
 	Wld_InsertNpc(Sleeper,"TPL_395");
 };
 
-func void init_orctempel()
-{
+func void init_orctempel() {
+	Init_Global ();
+
 	Wld_SetMobRoutine(0,0,"FIREPLACE",1);
 	B_InitMonsterAttitudes();
 	B_InitGuildAttitudes();
@@ -1977,8 +1984,9 @@ func void startup_oldmine()
 	EnteredOldMine = TRUE;
 };
 
-func void init_oldmine()
-{
+func void init_oldmine() {
+	Init_Global ();
+
 	Wld_SetMobRoutine(0,0,"FIREPLACE",1);
 	B_InitMonsterAttitudes();
 	B_InitGuildAttitudes();
@@ -2028,8 +2036,9 @@ func void startup_freemine()
 	Wld_InsertNpc(FreemineOrc,"FM_03");
 };
 
-func void init_freemine()
-{
+func void init_freemine() {
+	Init_Global ();
+
 	Wld_SetMobRoutine(0,0,"FIREPLACE",1);
 	B_InitMonsterAttitudes();
 	B_InitGuildAttitudes();

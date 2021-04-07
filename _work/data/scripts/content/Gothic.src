@@ -2,6 +2,11 @@ _Intern\constants.d
 _Intern\classes.d
 _Intern\magic_intern.d
 
+MOD\Ikarus.1.2.2\Ikarus_Const_G1.d
+MOD\Ikarus.1.2.2\EngineClasses_G1\*.d
+MOD\Ikarus.1.2.2\Ikarus.d
+MOD\Ikarus.1.2.2\float.d
+
 AI\AI_Intern\BodyStates.d
 AI\AI_Intern\PrintDebug.d
 AI\AI_Intern\AI_Constants.d
