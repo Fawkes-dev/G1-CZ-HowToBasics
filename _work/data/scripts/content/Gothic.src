@@ -1,6 +1,7 @@
 _Intern\constants.d
 _Intern\classes.d
 _Intern\magic_intern.d
+
 AI\AI_Intern\BodyStates.d
 AI\AI_Intern\PrintDebug.d
 AI\AI_Intern\AI_Constants.d
@@ -1159,7 +1160,7 @@ Story\Missions\DIA_STT_301_Ian.d
 Story\Missions\DIA_STT_302_Viper.d
 Story\Missions\DIA_Stt_309_Whistler.d
 Story\Missions\DIA_Stt_311_Fisk.d
-Story\Startup.d
+MOD\Story\Startup.d
 AI\Test_Scripts\TestZustaende\B_Hurt.d
 AI\Test_Scripts\TestZustaende\ZS_TestGoto.d
 AI\Test_Scripts\TestZustaende\ZS_TestHangAround.d
