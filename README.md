@@ -14,7 +14,7 @@ If you are looking for Broadcast go to original post:
 If you are looking for Console Calls go to original post:
 [Console calls](https://forum.worldofplayers.de/forum/threads/1493643-Script-function-via-Gothic-Konsole?p=25621202&viewfull=1#post25621202)
 
-Original forum [post](http://forum.gothicz.net/viewtopic.php?p=604559#p604559)
+Here is forum [post](http://forum.gothicz.net/viewtopic.php?p=604559#p604559) where I am explaining 'how to basics' :)
 
 # ONLY FOR DEMONSTRATION PURPOSES
 
